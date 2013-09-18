@@ -1,0 +1,23 @@
+vbell off
+# Bind F11 and F12 (NOT F1 and F2) to previous and nexit screen window
+bindkey -k F11 prev
+bindkey -k F12 next
+
+startup_message off
+
+# Window list at the bottom.
+hardstatus alwayslastline
+hardstatus string "%-w%{= BW}%50>%n %t%{-}%+w%<"
+
+# screens
+screen -t 'SRC-0' 0  
+screen -t 'EXE-0' 1 
+screen -t 'TOP' 2
+screen -t 'SRC-1' 3
+screen -t 'EXE-1' 4 
+screen -t TMP 5 
+screen -t TMP 6
+screen -t TMP 7
+screen -t DB 8
+#screen 9
+
