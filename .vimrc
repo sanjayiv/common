@@ -28,6 +28,9 @@ autocmd Filetype html setlocal ts=2 sw=2 expandtab
 autocmd Filetype python setlocal ts=4 tl=4 sw=4 expandtab
 autocmd Filetype ruby setlocal ts=2 sw=2 expandtab
 autocmd Filetype javascript setlocal ts=4 sw=4 sts=0 noexpandtab
+autocmd Filetype c setlocal ts=4 tl=4 sw=4 sts=0 noexpandtab
+autocmd Filetype sh setlocal ts=4 tl=4 sw=4 sts=0 noexpandtab
+autocmd Filetype Rscript setlocal ts=4 tl=4 sw=4 sts=0 noexpandtab
 " Key Mappings
 map <F8> :tabedit<CR>
 map <F9> :tabfirst<CR>
