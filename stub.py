@@ -16,9 +16,6 @@ def parse_args():
         sys.exit(1)
     return (options, args)
 
-## just like that
-## added this to test out git windows
-## commit -p
 if __name__ == '__main__':
     try:
         options, args = parse_args()
