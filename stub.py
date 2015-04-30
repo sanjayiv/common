@@ -3,9 +3,6 @@ import optparse
 
 from utils import formatted_filepath, get_logger
 
-## just like that
-## added this to test out git windows
-## commit -p
 def parse_args():
     default_output = formatted_filepath('output', datestamp=True)
     default_logger = formatted_filepath(suffix='log', sep='.')
